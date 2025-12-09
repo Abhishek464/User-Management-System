@@ -32,7 +32,7 @@ services:
 
   app:
     build: .
-    container_name: user-rbac-app
+    container_name: user-demo-app
     depends_on:
       mysql:
         condition: service_healthy
